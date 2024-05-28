@@ -1,0 +1,85 @@
+* {
+   margin: 0;
+   padding: 0;
+   align-items: center;
+}
+.container {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background: url(sunny.jpg);
+   background-size: cover;
+}
+header{
+   margin-top: 10vh;
+   margin-bottom: 5vh;
+   width: 33%;
+   height: 8vh;
+   display: flex;
+   font-size: 3vh;
+   background-color: white;
+   border-radius: 20px;
+   border: 0px white solid;
+}
+header > input{
+   width: 78%;
+   height: 4vh;
+   font-size: 3vh;
+   border-radius: 20px;
+   border: 0px white solid;
+   padding: 2% 5%;
+}
+header > .icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 10%;
+   height: 7vh;
+   
+}
+.location{
+   height: 30vh;
+   width: 32.5%;
+   background-color: white;
+}
+.city{
+   width: 100%;
+   padding-top: 2vh;
+   text-align: center;
+}
+.city_name{
+   font-size: 8vh;
+   color: rgb(255, 51, 0);
+}
+.country_name{
+   font-size: 4.5vh;
+   margin-top: 3vh;
+}
+.date{
+   font-size: 3.5vh;
+   margin-top: 3vh;
+   text-align: center;
+}
+.current{
+   height: 20vh;
+   width: 32.5%;
+   margin-top: 5vh;
+   text-align: center;
+   background-color: white;
+}
+.Tempreature{
+   display: flex;
+   font-size: 5vh;
+   margin-top: 2vh;
+   justify-content: center;
+}
+.temp{
+   margin-left: 3vh;
+   font-size: 6vh;
+   color: rgb(255, 51, 0);
+}
+.weather{
+   margin-left: 3vh;
+   font-size: 6vh;
+   color: rgb(255, 51, 0);
+}
